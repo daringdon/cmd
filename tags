@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CMD_MAIN_H	cmd_main.h	2;"	d	language:C++
+FILE_LIST	makefile	/^FILE_LIST= \\$/;"	m	language:Make
+SocketHandler	telnet_srv.cpp	/^void* SocketHandler(void* lp)$/;"	f	language:C++	signature:(void* lp)
+cmd_init	cmd_main.cpp	/^int cmd_init()$/;"	f	language:C++	signature:()
+cmd_init	cmd_main.h	/^int cmd_init();$/;"	p	language:C++	signature:()
+cmd_register	cmd_main.cpp	/^int cmd_register()$/;"	f	language:C++	signature:()
+exec	telnet_srv.cpp	/^string exec(const char* cmd) $/;"	f	language:C++	signature:(const char* cmd)
+fileExists	unit_test.cpp	/^bool fileExists(string needle, string haystack){$/;"	f	language:C++	signature:(string needle, string haystack)
+fileExists	unit_test.h	/^bool fileExists(string needle, string haystack);$/;"	p	language:C++	signature:(string needle, string haystack)
+isParentDirectory	unit_test.cpp	/^bool isParentDirectory(string child, string parent){$/;"	f	language:C++	signature:(string child, string parent)
+is_number	telnet_srv.cpp	/^bool is_number(const std::string& s)$/;"	f	language:C++	signature:(const std::string& s)
+main	test.cpp	/^int main()$/;"	f	language:C++	signature:()
+performAction	telnet_srv.cpp	/^string performAction(string command, string *wd, string program_dir)$/;"	f	language:C++	signature:(string command, string *wd, string program_dir)
+removeNewlineChars	telnet_srv.cpp	/^string removeNewlineChars(string input)$/;"	f	language:C++	signature:(string input)
+telnet_server_init	cmd_main.cpp	/^int telnet_server_init()$/;"	f	language:C++	signature:()
+telnet_srv_init	cmd_main.h	/^void* telnet_srv_init(void *);$/;"	p	language:C++	signature:(void *)
+telnet_srv_init	telnet_srv.cpp	/^void* telnet_srv_init(void* arg)$/;"	f	language:C++	signature:(void* arg)
+test	telnet_srv.cpp	/^void test()$/;"	f	language:C++	signature:()
